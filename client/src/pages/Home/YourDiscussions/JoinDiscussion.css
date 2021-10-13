@@ -1,0 +1,34 @@
+.Join-container{
+    margin-top: 70px;
+    /* background-color: blueviolet; */
+    /* display: flex;
+    flex-direction: column; */
+    padding: 20px;
+}
+
+.bar{
+    margin:0;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc; 
+}
+.searchbar{
+    height:45px; 
+    width:500px;
+    font-size:16px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-color: #f0ecf7;
+    padding-left: 20px;
+}
+.JoinPageJoinButton{
+    height:48px;
+    width: 52px;
+    /* padding-right: 10px; */
+    color: white;
+    background-color: #5D3FD3;
+    border: none;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    cursor: pointer;
+}

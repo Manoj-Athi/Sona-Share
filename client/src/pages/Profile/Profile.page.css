@@ -1,0 +1,120 @@
+.JoinPage-page{
+    min-height: 100vh;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .JoinPage-form{
+    min-width: 300px;
+    font : 30px ;
+    padding: 50px 30px 50px 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%),
+     0 20px 48px rgb(0 0 0 / 5%),
+     0 1px 4px rgb(0 0 0 / 10%);
+  }
+   .JoinPagelabelfont{
+     font-size: 25px ;
+     text-align : center ;
+  
+   }
+  .JoinPage-form label h3{
+   margin: 0% ;
+   text-align : center ;
+  }
+  .JoinPageform-input
+     {
+        padding: 14px 17px;
+        font-size: 16px;
+        color : #000;
+        font-weight : 500;
+        border-radius : 12px;
+        -webkit-box-shadow: inset 0 1px 4px 0 rgb(0 0 0 / 15%);
+        box-shadow : inset 0 1px 4px 0 rgb(0 0 0 / 15%);
+        border : none;
+        margin-bottom : 4px;
+        /* width : 100%; */
+        outline : none;
+        color : #292a3a;
+        -webkit-box-sizing: border-box;
+        box-sizing : border-box;
+    }
+  
+  .JoinPage-form{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 22px);
+    font-size: 15px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  
+  .JoinPage-submit-btn{
+    width: calc(100%);
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #5D3FD3;
+    border: solid 2px #5D3FD3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+  
+  .JoinPage-submit-btn:hover{
+    color: black;
+    background-color: #f0ecf7;
+  }
+  
+  .JoinPagecontainer{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 50px 30px 50px 30px;
+}
+
+/* .JoinPagecontainer{
+   
+        -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    } */
+
+  .JoinPageswitch-auth-btn{
+    color: #5D3FD3;
+    text-decoration: none;
+  }
+  
+  .JoinPageswitch-auth-btn:hover{
+    text-decoration: underline;
+  }
+
+  .bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .form-input{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 22px);
+    font-size: 15px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+.searchbar{
+    height:45px; 
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+  }
